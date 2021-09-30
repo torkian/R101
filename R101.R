@@ -413,3 +413,13 @@ names(google)
 #       zlab = "facebook",
 #       col  = "red", 
 #       size = 3)
+
+install.packages("plot3D")
+library("plot3D")
+data(iris)
+head(iris)
+# x, y and z coordinates
+x <- sep.l <- iris$Sepal.Length
+y <- pet.l <- iris$Petal.Length
+z <- sep.w <- iris$Sepal.Width
+scatter3D(x, y, z, clab = c("Sepal", "Width (cm)"))
