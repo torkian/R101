@@ -1,4 +1,4 @@
-2 + 2  # Basic math; Mac: cmd-enter; PC: ctrl-r
+2 + 2  # Basic math; Mac: cmd -enter; PC: ctrl-r
 
 1:100  # Prints numbers 1 to 100 across several lines
 
